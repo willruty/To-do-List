@@ -1,13 +1,33 @@
 body {
-    background-color: #9e0303;
+    background-color: #292929;
     margin: 0;
     padding: 0;
 }
 
 .container {
-    background-color: aliceblue;
+    background-color: #424242;
     margin: 150px auto;
     border-radius: 30px;
     padding: 30px;
     width: 600px;
+
+    & h1 {
+        color: white;
+    }
+
+    & ul li {
+        margin: 15px;
+        color: white;
+    }
+
+    & button {
+        border-radius: 50px;
+        background-color: #f09630;
+    }
+
+    & input {
+        border-radius: 30px;
+        border: none;
+        padding-left: 15px;
+    }
 }
